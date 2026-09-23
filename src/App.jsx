@@ -8,6 +8,8 @@ import WorkPortfolioPage from "./pages/work/WorkPortfolioPage.jsx";
 import CaseStudyPage from "./pages/case/CaseStudyPage.jsx";
 import BlogPage from "./pages/blog/BlogPage.jsx";
 import BlogArticlePage from "./pages/read/BlogArticlePage.jsx";
+import ContactPage from "./pages/contact/ContactPage.jsx";
+import PricingPage from "./pages/pricing/PricingPage.jsx";
 
 
 export default function App() { 
@@ -25,6 +27,8 @@ export default function App() {
         <Route path="/CaseStudyPage" element={<CaseStudyPage />} />
         <Route path="/BlogPage" element={<BlogPage />} />
         <Route path="/BlogArticlePage" element={<BlogArticlePage />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/pricing" element={<PricingPage />} />
       </Routes>
     </main>
 

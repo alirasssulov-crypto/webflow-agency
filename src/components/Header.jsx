@@ -62,8 +62,8 @@ return ( <header className="sticky top-0 z-50 bg-[#20205b]/95 text-white backdro
     </nav>
 
     <Link
-      to="/#contact"
-      onClick={() => go("/#contact")}
+      to="/contact"
+      onClick={() => go("/contact")}
       className="hidden rounded-full border border-white/25 px-6 py-2.5 text-sm font-semibold transition hover:bg-white hover:text-[#20205b] md:block"
     >
       Contact us
@@ -95,8 +95,8 @@ return ( <header className="sticky top-0 z-50 bg-[#20205b]/95 text-white backdro
         ))}
 
         <Link
-          to="/#contact"
-          onClick={() => go("/#contact")}
+          to="/contact"
+          onClick={() => go("/contact")}
           className="mt-2 rounded-full bg-[#ffd56a] px-5 py-3 text-center font-semibold text-[#20205b]"
         >
           Contact us
