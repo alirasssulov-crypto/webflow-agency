@@ -1,13 +1,14 @@
 import { useState } from "react"; 
 import { Link, useLocation } from "react-router-dom";
-const nav = [ 
-    ["Home", "/"],
-     ["About us", "/about"],
-      ["Features", "/#features"],
-       ["Pricing", "/#pricing"],
-        ["FAQ", "/#faq"], 
-        ["Blog", "/#blog"], 
-    ];
+
+const nav = [
+  ["Home", "/"],
+  ["About us", "/about"],
+  ["Features", "/Feature"],
+  ["Pricing", "/pricing"],
+  ["Work", "/WorkPortfolioPage"],
+  ["Blog", "/BlogPage"],
+];
 export default function Header() {
      const [open, setOpen] = 
      useState(false); 
